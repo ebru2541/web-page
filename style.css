@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(135deg, #264968 10%, #45a94da8 100%);
+  color: rgba(255, 255, 255, 0.823);
+  font-family: "Patrick Hand", cursive;
+}
+
+/* header */
+header {
+  position: sticky;
+  top: 0rem;
+}
+header h1 {
+  background-image: linear-gradient(135deg, #f86560 10%, #725b0e 100%);
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* section */
