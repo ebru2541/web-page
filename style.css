@@ -81,4 +81,45 @@ div.link a {
   background-image: linear-gradient(135deg, #725b0e 10%, #f86560 100%);
 }
 
+/* icon */
+.icon i {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 3rem;
+  color: white;
+}
+
 /* response */
+@media screen and (max-width: 770px) {
+  section {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  section .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+  }
+  section .box h1 {
+    text-align: center;
+    font-size: 3.2rem;
+  }
+
+  .box .link {
+    display: block;
+    width: 6rem;
+    margin: auto;
+  }
+  .img img {
+    min-width: 400px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+  .icon i {
+    position: relative;
+    left: 50%;
+    bottom: 1.2rem;
+  }
+}
